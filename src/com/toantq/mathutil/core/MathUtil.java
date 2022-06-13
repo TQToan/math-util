@@ -5,10 +5,6 @@
  */
 package com.toantq.mathutil.core;
 
-/**
- *
- * @author Thai Quoc Toan <toantqse151272@fpt.edu.vn>
- */
 public class MathUtil {
     
     

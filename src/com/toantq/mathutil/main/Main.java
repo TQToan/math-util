@@ -7,11 +7,6 @@ package com.toantq.mathutil.main;
 
 import com.toantq.mathutil.core.MathUtil;
 
-
-/**
- *
- * @author Thai Quoc Toan <toantqse151272@fpt.edu.vn>
- */
 public class Main {
     public static void main(String[] args) {
         
