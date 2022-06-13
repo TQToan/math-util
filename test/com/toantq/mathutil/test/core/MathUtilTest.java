@@ -34,7 +34,6 @@ public class MathUtilTest {
         int n = 0; //test thử tình huống tử tế đầu vào => kết quả well
         long expected = 1; // kết quả expected = 1
         long actual = MathUtil.getFactorial(n); // gọi hàm để chạy code chính
-        
         //so sánh expected vs. actual dùng framework (xanh, đỏ)
         assertEquals(expected, actual);
         //hàm này giúp so sánh 2 giá trị nào đó có giống nhau không 
@@ -49,7 +48,7 @@ public class MathUtilTest {
         assertEquals(6, MathUtil.getFactorial(3));// 3! = 6
         assertEquals(24, MathUtil.getFactorial(4));// 4! = 24
         assertEquals(120, MathUtil.getFactorial(5));// 5! = 120
-        assertEquals(720, MathUtil.getFactorial(6));// 6! = 720
+        assertEquals(120, MathUtil.getFactorial(6));// 6! = 720
         
         
     }
