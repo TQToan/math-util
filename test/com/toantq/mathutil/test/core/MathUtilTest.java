@@ -48,7 +48,7 @@ public class MathUtilTest {
         assertEquals(6, MathUtil.getFactorial(3));// 3! = 6
         assertEquals(24, MathUtil.getFactorial(4));// 4! = 24
         assertEquals(120, MathUtil.getFactorial(5));// 5! = 120
-        assertEquals(120, MathUtil.getFactorial(6));// 6! = 720
+        assertEquals(720, MathUtil.getFactorial(6));// 6! = 720
         
         
     }
