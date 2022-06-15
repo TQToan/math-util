@@ -22,7 +22,35 @@ public class MathUtil {
     // 21! tràn kiểu 
     // bài này quy ước n! trong khoảng 0-20
     
+//    public static long getFactorial(int n) {
+//        if (n < 0 || n > 20) {
+//            throw new IllegalArgumentException("Invalid argument. n must be between 0..20");
+//        }
+//        
+//        if (n == 0 || n == 1) {
+//            return 1;
+//        }
+//        
+//        long product = 1;
+//        for (int i = 1; i <= n; i++) {
+//            product *= i;
+//        }
+//        
+//        return product;
+//    }
+    
+    
+    //Học về đệ quy
+    // hiện tượng gọi lại chính mình với 1 quy mô khác - Recursion
+    // giống nhau và lồng trong nhau
+    // .....đến điểm dừng
+    
+    //tính 6! = 1.2.3.4.5.6 = 5!.6
+    //     5! =             = 4!.5
+    //
+    
     public static long getFactorial(int n) {
+        
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid argument. n must be between 0..20");
         }
@@ -31,11 +59,6 @@ public class MathUtil {
             return 1;
         }
         
-        long product = 1;
-        for (int i = 1; i <= n; i++) {
-            product *= i;
-        }
-        
-        return product;
+        return n * getFactorial(n - 1);
     }
 }
